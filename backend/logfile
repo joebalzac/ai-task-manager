@@ -1,0 +1,41 @@
+2025-03-12 23:12:05.449 EDT [54653] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-12 23:12:05.451 EDT [54653] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-03-12 23:12:05.451 EDT [54653] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:12:05.451 EDT [54653] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-03-12 23:12:05.451 EDT [54653] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:12:05.451 EDT [54653] WARNING:  could not create listen socket for "localhost"
+2025-03-12 23:12:05.451 EDT [54653] FATAL:  could not create any TCP/IP sockets
+2025-03-12 23:12:05.451 EDT [54653] LOG:  database system is shut down
+2025-03-12 23:13:06.371 EDT [54686] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-12 23:13:06.373 EDT [54686] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-03-12 23:13:06.373 EDT [54686] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:13:06.373 EDT [54686] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-03-12 23:13:06.373 EDT [54686] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:13:06.373 EDT [54686] WARNING:  could not create listen socket for "localhost"
+2025-03-12 23:13:06.373 EDT [54686] FATAL:  could not create any TCP/IP sockets
+2025-03-12 23:13:06.373 EDT [54686] LOG:  database system is shut down
+2025-03-12 23:14:31.397 EDT [54968] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-12 23:14:31.399 EDT [54968] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-03-12 23:14:31.399 EDT [54968] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:14:31.399 EDT [54968] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-03-12 23:14:31.399 EDT [54968] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-12 23:14:31.399 EDT [54968] WARNING:  could not create listen socket for "localhost"
+2025-03-12 23:14:31.399 EDT [54968] FATAL:  could not create any TCP/IP sockets
+2025-03-12 23:14:31.399 EDT [54968] LOG:  database system is shut down
+2025-03-13 10:27:15.396 EDT [57577] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-13 10:27:15.397 EDT [57577] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-03-13 10:27:15.397 EDT [57577] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-13 10:27:15.397 EDT [57577] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-03-13 10:27:15.397 EDT [57577] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-03-13 10:27:15.397 EDT [57577] WARNING:  could not create listen socket for "localhost"
+2025-03-13 10:27:15.397 EDT [57577] FATAL:  could not create any TCP/IP sockets
+2025-03-13 10:27:15.397 EDT [57577] LOG:  database system is shut down
+2025-03-13 10:47:14.475 EDT [59051] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-03-13 10:47:14.477 EDT [59051] LOG:  listening on IPv6 address "::1", port 5432
+2025-03-13 10:47:14.477 EDT [59051] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-03-13 10:47:14.478 EDT [59051] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-03-13 10:47:14.479 EDT [59052] LOG:  database system was shut down at 2025-03-13 10:45:52 EDT
+2025-03-13 10:47:14.481 EDT [59051] LOG:  database system is ready to accept connections
+2025-03-13 10:54:00.827 EDT [59339] ERROR:  syntax error at or near "psql" at character 1
+2025-03-13 10:54:00.827 EDT [59339] STATEMENT:  psql -U postgres
+	SELECT version();
